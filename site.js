@@ -1,4 +1,6 @@
 // site.js
+<!-- Include jQuery from a CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 function hideLoader() {
   $('#loading').hide();
