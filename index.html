@@ -96,12 +96,21 @@ body {
 
 .button {
     position: absolute;
-  bottom: 0
     top:50%
+}
+  #loading {
+    background: url('spinner.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
 }
 </style>
 </head>
 <body>
+  <div id="loading"></div>
 <h1>Newcode</h1>
 <h2>The new way to code, and it's smart too</h2>
   <button>Start now</button>
